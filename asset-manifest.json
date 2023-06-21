@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4ebcf14f.css",
+    "main.js": "/portfolio/static/js/main.b4aca6b8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/users-table.jpeg": "/portfolio/static/media/users-table.9c0044b81b3bb7590806.jpeg",
+    "static/media/background-image.jpeg": "/portfolio/static/media/background-image.07d82011268cffed77f3.jpeg",
+    "static/media/calculator.jpeg": "/portfolio/static/media/calculator.3f4a44b5db1a4da9a4f1.jpeg",
+    "static/media/age-calculator.jpeg": "/portfolio/static/media/age-calculator.5930aba927b189d20107.jpeg",
+    "static/media/word-counter.jpeg": "/portfolio/static/media/word-counter.86f35a9cec849af20f23.jpeg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.d9bab227c3c316549bac8162a2140014.svg",
+    "index.html": "/portfolio/index.html",
+    "main.4ebcf14f.css.map": "/portfolio/static/css/main.4ebcf14f.css.map",
+    "main.b4aca6b8.js.map": "/portfolio/static/js/main.b4aca6b8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ebcf14f.css",
+    "static/js/main.b4aca6b8.js"
+  ]
+}
