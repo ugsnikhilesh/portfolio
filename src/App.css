@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0d570f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,86 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.textgr {
+  background: rgb(0, 219, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 219, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: cursive;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.temp {
+  background: rgba(14, 144, 120, 0.655);
+}
+
+.textgr2 {
+  font-family: "Marck Script", cursive;
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(180deg, #42ae40 0%, #4eff4a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.textgr3 {
+  font-family: "Marck Script", cursive;
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(180deg, #c2c2c2 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.35);
+}
+
+.textgr4 {
+  font-family: "Marck Script", cursive;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  text-shadow: 0px 2px 2px rgba(54, 123, 17, 0.35);
+  background: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+.hide-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.bgimg {
+  background-image: url("./background-image.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:multiply;
+  background-color: white;
+}
+
+.colors-list-item {
+  width: 70px;
+  height: 70px;
+}
+
+.colors-list-item:hover {
+  box-shadow: -4px 4px 5px 4px #151515;
+  border: solid 1px white;
+}
+
+.bs-bg-opacity {
+  --bs-bg-opacity: .5;
 }
